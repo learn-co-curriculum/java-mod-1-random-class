@@ -35,9 +35,13 @@ using some of its methods!
 ## `nextBoolean()`
 
 If we want a random `boolean` value, we can use the `Random` class' method
-`nextBoolean()` to return a pseudorandom `boolean` value of true or false. For
-example, this could be useful if we want to simulate flipping a coin and knowing
-if the coin lands on heads or tails.
+`nextBoolean()` to return a pseudorandom `boolean` value of true or false.
+Pseudorandom means that it is a completely computer-generated random value. It
+isn't truly random since true randomness is generated through a physical
+variable, like atmospheric noise. But pseudorandom is mathematically close
+enough to emulate a random value for our purposes. For example, this could be
+useful if we want to simulate flipping a coin and knowing if the coin lands on
+heads or tails.
 
 ```java
 import java.util.Random;
